@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huddle</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Huddle</h1>
+        <button class="try-btn">Try It Free</button>
+    </header>
+    <section class="main-content">
+        <h2>Build The Community Your Fans Will Love</h2>
+        <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+        <button class="cta-btn">Get Started For Free</button>
+    </section>
+    <section class="stats">
+        <div class="stat-item">
+            <h3>1.4k+</h3>
+            <p>Communities Formed</p>
+        </div>
+        <div class="stat-item">
+            <h3>2.7m+</h3>
+            <p>Messages Sent</p>
+        </div>
+    </section>
+    <section class="info-section">
+        <div class="info-item">
+            <h3>Grow Together</h3>
+            <p>Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
+        </div>
+        <div class="info-item">
+            <h3>Flowing Conversations</h3>
+            <p>You wouldn’t paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+        </div>
+    </section>
+</body>
+</html>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3f4f6;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.try-btn {
+    background-color: #ff007b;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.main-content {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+.cta-btn {
+    background-color: #ff007b;
+    border: none;
+    padding: 15px 30px;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+    width: 80%;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.info-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+p {
+    margin: 10px 0;
+}
